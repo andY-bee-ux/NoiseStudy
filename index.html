@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Template de site web pour le cours IFT3150">
+        <meta name="description" content="Noise classification">
       
       
         <meta name="author" content="Louis-Edouard Lafontant">
@@ -19,22 +19,19 @@
         <link rel="next" href="suivi/">
       
       
-        
-      
-      
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>Vue d'ensemble du projet - Site de suivi IFT3150</title>
+        <title>Vue d'ensemble du projet - Noise Classification</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.e53b48f4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -53,10 +50,13 @@
       
     
     
+      <link rel="stylesheet" href="css/styles.css">
+    
     <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -92,7 +92,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="." title="Site de suivi IFT3150" class="md-header__button md-logo" aria-label="Site de suivi IFT3150" data-md-component="logo">
+    <a href="." title="Noise Classification" class="md-header__button md-logo" aria-label="Noise Classification" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,7 +106,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Site de suivi IFT3150
+            Noise Classification
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -202,7 +202,7 @@
         <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     ift3150-template
@@ -289,7 +289,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="realisation/" class="md-tabs__link">
+      <a href="conception.md" class="md-tabs__link">
         
   
   
@@ -343,20 +343,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Site de suivi IFT3150" class="md-nav__button md-logo" aria-label="Site de suivi IFT3150" data-md-component="logo">
+    <a href="." title="Noise Classification" class="md-nav__button md-logo" aria-label="Noise Classification" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Site de suivi IFT3150
+    Noise Classification
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     ift3150-template
@@ -382,153 +382,17 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Vue d'ensemble
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    
-  
     Vue d'ensemble
-  
-
     
   </span>
   
-  
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#description-du-projet" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Description du projet
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Description du projet">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#contexte" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Contexte
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problematique" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Problématique
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#proposition-et-objectifs" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Proposition et objectifs
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#methodologie" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Méthodologie
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#validation-et-evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Validation et Évaluation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#equipe" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Équipe
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#echeancier" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Échéancier
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -546,14 +410,9 @@
   
   
   <span class="md-ellipsis">
-    
-  
     Suivi
-  
-
     
   </span>
-  
   
 
       </a>
@@ -573,14 +432,9 @@
   
   
   <span class="md-ellipsis">
-    
-  
     Études préliminaires
-  
-
     
   </span>
-  
   
 
       </a>
@@ -595,19 +449,14 @@
   
   
     <li class="md-nav__item">
-      <a href="realisation/" class="md-nav__link">
+      <a href="conception.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    
-  
     Réalisation
-  
-
     
   </span>
-  
   
 
       </a>
@@ -627,14 +476,9 @@
   
   
   <span class="md-ellipsis">
-    
-  
     Évaluation
-  
-
     
   </span>
-  
   
 
       </a>
@@ -662,108 +506,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#description-du-projet" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Description du projet
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Description du projet">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#contexte" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Contexte
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#problematique" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Problématique
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#proposition-et-objectifs" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Proposition et objectifs
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#methodologie" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Méthodologie
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#validation-et-evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Validation et Évaluation
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#equipe" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Équipe
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#echeancier" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Échéancier
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -772,7 +514,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -790,46 +531,80 @@
     }
 </style>
 
-<h1 id="vue-densemble-du-projet">Vue d'ensemble du projet<a class="headerlink" href="#vue-densemble-du-projet" title="Permanent link">&para;</a></h1>
+<h1 id="vue-densemble-du-projet">VUE D'ENSEMBLE DU PROJET<a class="headerlink" href="#vue-densemble-du-projet" title="Permanent link">&para;</a></h1>
 <div class="admonition info">
 <p class="admonition-title">Informations générales</p>
 <p><strong>Session</strong>: Été 2026<br />
-<strong>Auteur(s)</strong>: <!-- Nom de chaque membre (matricule)  --><br />
-<strong>Thème(s)</strong>: <!-- Thèmes principaux abordés dans le projet  --><br />
-<strong>Superviseur(s)</strong>: <!-- Nom du superviseur (affiliation)  --><br />
-<strong>Collaborateur(s):</strong> <!-- Nom de(s) collaborateur(s) et partenaire(s)` -->  </p>
+<strong>Auteur(s)</strong>: Andréa Noukoua Djodi (20279717)<br />
+<strong>Thème(s)</strong>: Nuisances sonores<br />
+<strong>Superviseur(s)</strong>: Louis-Edouard Lafontant<br />
+<strong>Collaborateur(s):</strong> —</p>
 </div>
-<h2 id="description-du-projet">Description du projet<a class="headerlink" href="#description-du-projet" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> N'oubliez pas d'effacer ou mettre en commentaires les notes (<code>&gt;</code>) en début de section</p>
-</blockquote>
-<h3 id="contexte">Contexte<a class="headerlink" href="#contexte" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Présentez le contexte général dans lequel s’inscrit votre projet (social, organisationnel, technologique, éducatif, environnemental, etc.).</p>
-</blockquote>
-<h3 id="problematique">Problématique<a class="headerlink" href="#problematique" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Décrivez le problème central ou la question de recherche que votre projet cherche à adresser, pourquoi s'y intéresser et les faiblesses des solutions actuelles. 
-Le problème doit pouvoir être compris indépendamment de la solution envisagée.</p>
-</blockquote>
-<h3 id="proposition-et-objectifs">Proposition et objectifs<a class="headerlink" href="#proposition-et-objectifs" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Présentez votre proposition de projet et les objectifs visés. Expliquez en quoi votre approche répond à la problématique identifiée. 
-Assurez-vous d'avoir, dans la mesure du possible, des objectifs mesurables, raisonnnables dans le temps et non redondants entre eux.</p>
-</blockquote>
-<h3 id="methodologie">Méthodologie<a class="headerlink" href="#methodologie" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Expliquez comment vous comptez aborder le projet : démarche générale, grandes étapes prévues, itérations, types de validations envisagées.</p>
-</blockquote>
-<h3 id="validation-et-evaluation">Validation et Évaluation<a class="headerlink" href="#validation-et-evaluation" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>Indiquez comment vous évaluerez que votre solution répond aux objectifs du projet (ex. scénarios d’usage, tests, retours utilisateurs, indicateurs qualitatifs ou quantitatifs).</p>
-</blockquote>
-<h2 id="equipe">Équipe<a class="headerlink" href="#equipe" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>Présentez les membres de l’équipe et le rôle principal de chacun dans le projet.</p>
-</blockquote>
-<h2 id="echeancier">Échéancier<a class="headerlink" href="#echeancier" title="Permanent link">&para;</a></h2>
+<h1 id="description-du-projet">DESCRIPTION DU PROJET<a class="headerlink" href="#description-du-projet" title="Permanent link">&para;</a></h1>
+<p>Ce projet s'inscrit dans le champ de la <span style="color:#9E1946;
+  font-weight: bold;">psychoacoustique urbaine </span> et vise à mieux comprendre la manière dont les habitants d'environnements résidentiels urbains perçoivent et catégorisent les bruits auxquels ils sont quotidiennement exposés. Face à la complexité et à la subjectivité inhérentes à l'expérience sonore, une approche centrée sur la <span style="color:#9E1946;
+  font-weight: bold;"> perception humaine </span> a été privilégiée, plutôt qu'une caractérisation basée sur l'intensité des différents bruits.</p>
+<p>La <span style="color:#9E1946;
+  font-weight: bold;"> première phase du projet </span> consiste en une étude qualitative qui résulterait en une classification perceptive. Des participants résidant en milieu urbain montréalais ou milieu similaire, sont exposés, en conditions contrôlées, à un corpus d'événements sonores représentatifs de leur environnement quotidien, incluant notamment des sons liés aux appareils électroménagers et aux équipements urbains et résidentiels. À l'issue de chaque écoute, les participants rempliront un questionnaire mesurant leurs appréciations perceptives. L'analyse des données recueillies permettra d'établir une taxonomie des sons selon leur valence perçue.</p>
+<p>La <span style="color:#9E1946;
+  font-weight: bold;"> seconde phase </span> s'appuie sur les résultats de cette classification pour concevoir et évaluer un système de requalification sonore. Le principe repose sur la <span style="color:#9E1946;
+  font-weight: bold;">superposition </span> de sons perçus comme neutres à des événements sonores à valence négative, dans le but d'obtenir des combinaisons acoustiques plus agréables, le but n'étant pas de supprimer les sons indésirables, mais de modifier leur perception en les combinant avec une source sonore plaisante.</p>
+<p>L'ensemble de la démarche s'ancre dans le cadre conceptuel du <em>soundscape</em>, tel que défini par la série de normes ISO 12913, et s'appuie notamment sur le modèle circomplexe d'Axelsson, Nilsson et Berglund (2010), qui définit la perception des paysages sonores autour des dimensions  <span style="color:#9E1946;
+  font-weight: bold;">d'agréabilité </span> (<em>pleasantness</em>) et <span style="color:#9E1946;
+  font-weight: bold;"> d'animosité </span> (<em>eventfulness</em>).</p>
+<h1 id="contexte">CONTEXTE<a class="headerlink" href="#contexte" title="Permanent link">&para;</a></h1>
+<p>L'environnement sonore urbain est une composante centrale de la qualité de vie en milieu résidentiel. En contexte montréalais, les habitants sont exposés à une diversité de sources sonores ; <em>trafic routier, chantiers de construction, équipements domestiques</em>, entre autres. Ces derniers affectent le bien-être de manière significative et, bien que cela soit largement documenté, l'influence des bruits du quotidien reste mal comprise dans sa dimension perceptive et subjective</p>
+<p>Les approches traditionnelles de gestion du bruit urbain reposent principalement sur <span style="color:#9E1946;
+  font-weight: bold;">des mesures physiques objectives </span>, comme le niveau de pression sonore en décibels. Or, la gêne perçue par un individu ne dépend pas uniquement de l'intensité d'un son, mais également de sa nature, de sa familiarité, du contexte dans lequel il survient et de la sensibilité propre de l'auditeur. Cette dissociation entre mesure objective et perception subjective oblige une approche centrée sur l'humain.</p>
+<p>Par ailleurs, les solutions existantes de traitement du bruit ( isolation acoustique, atténuation à la source ) sont souvent coûteuses, difficilement applicables en rénovation, et ne tiennent pas compte de la dimension perceptive <!--( cite la métaanalyse d) -->. Des approches alternatives, comme le masquage sonore offrent des perspectives prometteuses mais restent peu documentées dans un contexte résidentiel urbain nord-américain <!--(cite e )-->.</p>
+<h1 id="problematique">PROBLÉMATIQUE<a class="headerlink" href="#problematique" title="Permanent link">&para;</a></h1>
+<p><em>Comment les résidents d'environnements urbains montréalais perçoivent-ils et catégorisent-ils les événements sonores de leur quotidien, et dans quelle mesure la superposition d'un son à valence neutre peut-elle améliorer la perception d'un son à valence négative ?</em></p>
+<p>Cette question soulève plusieurs enjeux. D'une part, il n'existe pas  <!--( trop rigide, contre-argument ?) --> ( à notre connaissance ) de taxonomie perceptive des sons résidentiels urbains établie pour le contexte montréalais. D'autre part, les mécanismes par lesquels un son neutre modifie la perception d'un son négatif (qu'il s'agisse d'un simple camouflage ou d'une transformation plus profonde de l'expérience sonore ) restent peu explorés. Enfin, les solutions de requalification sonore existantes sont rarement conçues à partir de données perceptives recueillies directement auprès des populations concernées et impliquées.</p>
+<h1 id="proposition-et-objectifs">PROPOSITION ET OBJECTIFS<a class="headerlink" href="#proposition-et-objectifs" title="Permanent link">&para;</a></h1>
+<p>Ce projet propose une démarche en deux phases articulées autour de la <span style="color:#9E1946;
+  font-weight: bold;">perception humaine</span> comme variable centrale.</p>
+<p>La première phase vise à constituer une taxonomie <span style="color:#9E1946;
+  font-weight: bold;">empirique</span> des sons résidentiels urbains montréalais selon leur valence perçue. Cette taxonomie sera établie à partir de données collectées auprès de participants exposés à un corpus de sons représentatifs de leur environnement quotidien, évalués selon les attributs perceptifs de l'ISO 12913-2.</p>
+<p>La seconde phase vise à identifier, à partir de cette taxonomie, quels types de sons neutres compensent le mieux la perception négative associée à chaque catégorie de sons identifiée. Elle produira un système de correspondance entre différentes catégories de sons, constituant une base empirique pour la conception de stratégies de requalification sonore adaptées au contexte résidentiel.</p>
+<p>Les objectifs spécifiques sont les suivants :</p>
+<ul>
+<li>Constituer un corpus de sons résidentiels urbains normalisé et représentatif du contexte montréalais</li>
+<li>Établir une taxonomie perceptive des sons selon leur valence à partir des évaluations de participants</li>
+<li>Identifier les combinaisons son "négatif" / son "neutre" les plus efficaces pour améliorer la perception globale</li>
+<li>Produire un système de correspondance exploitable dans une perspective de design sonore résidentiel</li>
+</ul>
+<h1 id="methodologie">MÉTHODOLOGIE<a class="headerlink" href="#methodologie" title="Permanent link">&para;</a></h1>
+<p>La démarche est structurée autour de deux expériences contrôlées successives.</p>
+<h2 id="constitution-du-corpus-sonore">Constitution du corpus sonore<a class="headerlink" href="#constitution-du-corpus-sonore" title="Permanent link">&para;</a></h2>
+<p>Les stimuli sont issus du dataset FSD50K, dérivé de la plateforme Freesound et composé d'enregistrements annotés et validés par des annotateurs humains. Parmi les 354 classes disponibles, une sélection de catégories écologiquement valides pour le contexte résidentiel montréalais a été effectuée. Les extraits sont normalisés à -23 LUFS conformément à la norme ITU-R BS.1770-4, à l'aide de la librairie Python pyloudnorm (Steinmetz et Reiss, 2021), afin que les différences de perception observées ne soient pas attribuables à l'intensité sonore.</p>
+<h2 id="phase-1-classification-perceptive">Phase 1 :Classification perceptive<a class="headerlink" href="#phase-1-classification-perceptive" title="Permanent link">&para;</a></h2>
+<p>Des participants sont exposés individuellement, en conditions contrôlées, à un ensemble de sons isolés présentés dans un ordre aléatoire propre à chaque participant. Une pause silencieuse de 3 à 5 secondes est ménagée entre chaque extrait pour limiter les effets de contraste. À l'issue de chaque écoute, le participant évalue le son à l'aide d'un questionnaire structuré autour des attributs perceptifs de l'ISO 12913-2. Les données collectées font ensuite l'objet d'une analyse statistique permettant d'établir la taxonomie des sons.</p>
+<h2 id="phase-2-requalification-sonore">Phase 2 : Requalification sonore<a class="headerlink" href="#phase-2-requalification-sonore" title="Permanent link">&para;</a></h2>
+<p>À partir de la taxonomie produite en Phase 1, des mixages sont générés en superposant des sons à valence "négative"  <!-- ( à redéfinir) --> avec des sons à valence "neutre', selon différents ratios de mixage. Ces combinaisons sont présentées aux participants selon le même protocole qu'en Phase 1, avec et sans le son neutre ajouté, afin de mesurer l'effet de la superposition sur la perception. Les résultats permettront d'établir le système de correspondance entre types de sons "négatifs" et types de sons "neutres" compensateurs.</p>
+<h1 id="validation-et-evaluation">VALIDATION ET ÉVALUATION<a class="headerlink" href="#validation-et-evaluation" title="Permanent link">&para;</a></h1>
+<p>La validité interne de l'étude repose sur plusieurs mécanismes : normalisation des stimuli en loudness, randomisation de l'ordre de présentation, collecte de variables de contrôle (âge, sensibilité au bruit, exposition professionnelle, durée de résidence), et sessions réalisées en personne dans un environnement acoustique contrôlé.</p>
+<p>La validité externe sera évaluée en comparant les résultats obtenus avec ceux de la littérature existante, notamment les travaux d'Axelsson et al. (2010) et de Aletta (2016) sur la perception des paysages sonores urbains.</p>
+<p>L'évaluation des résultats de la Phase 2 reposera sur la comparaison des scores perceptifs avant et après superposition, à l'aide de tests statistiques appariés (test t de Student ou équivalent non paramétrique selon la distribution des données).</p>
+<h1 id="equipe">ÉQUIPE<a class="headerlink" href="#equipe" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Membre</th>
+<th>Rôle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Andréa Noukoua Djodi</td>
+<td></td>
+</tr>
+<tr>
+<td>Louis-Edouard Lafontant</td>
+<td>Supervision</td>
+</tr>
+</tbody>
+</table>
+<h1 id="echeancier">ÉCHÉANCIER<a class="headerlink" href="#echeancier" title="Permanent link">&para;</a></h1>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Le suivi complet est disponible dans la page <a href="suivi/">Suivi de projet</a>.</p>
@@ -847,24 +622,10 @@ Assurez-vous d'avoir, dans la mesure du possible, des objectifs mesurables, rais
 <tbody>
 <tr>
 <td>Ouverture de projet</td>
-<td>4 mai</td>
-<td>15 mai</td>
+<td>1 mai</td>
+<td>1 mai</td>
 <td>Proposition de projet</td>
 <td>✅ Terminé</td>
-</tr>
-<tr>
-<td>Études préliminaires</td>
-<td>4 mai</td>
-<td>22 mai</td>
-<td>Document d'analyse</td>
-<td>🔄 En cours</td>
-</tr>
-<tr>
-<td>Présentation + Rapport</td>
-<td>7 aout</td>
-<td>14 aout</td>
-<td>Présentation + Rapport</td>
-<td>⏳ À venir</td>
 </tr>
 </tbody>
 </table>
@@ -931,11 +692,10 @@ Assurez-vous d'avoir, dans la mesure du possible, des objectifs mesurables, rais
     
     
       
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "search.share", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "search.share", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>

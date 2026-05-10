@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Template de site web pour le cours IFT3150">
+        <meta name="description" content="Noise classification">
       
       
         <meta name="author" content="Louis-Edouard Lafontant">
@@ -21,22 +21,19 @@
         <link rel="next" href="../analyse/">
       
       
-        
-      
-      
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>Suivi du projet - Site de suivi IFT3150</title>
+        <title>Suivi du projet - Noise Classification</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.e53b48f4.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -55,10 +52,13 @@
       
     
     
+      <link rel="stylesheet" href="../css/styles.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -94,7 +94,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href=".." title="Site de suivi IFT3150" class="md-header__button md-logo" aria-label="Site de suivi IFT3150" data-md-component="logo">
+    <a href=".." title="Noise Classification" class="md-header__button md-logo" aria-label="Noise Classification" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +108,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Site de suivi IFT3150
+            Noise Classification
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -204,7 +204,7 @@
         <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     ift3150-template
@@ -291,7 +291,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../realisation/" class="md-tabs__link">
+      <a href="../conception.md" class="md-tabs__link">
         
   
   
@@ -345,20 +345,20 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Site de suivi IFT3150" class="md-nav__button md-logo" aria-label="Site de suivi IFT3150" data-md-component="logo">
+    <a href=".." title="Noise Classification" class="md-nav__button md-logo" aria-label="Noise Classification" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Site de suivi IFT3150
+    Noise Classification
   </label>
   
     <div class="md-nav__source">
       <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     ift3150-template
@@ -380,14 +380,9 @@
   
   
   <span class="md-ellipsis">
-    
-  
     Vue d'ensemble
-  
-
     
   </span>
-  
   
 
       </a>
@@ -411,159 +406,17 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Suivi
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
   <span class="md-ellipsis">
-    
-  
     Suivi
-  
-
     
   </span>
   
-  
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#semaine-1-0108-mai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Semaine 1 (01–08 Mai)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Semaine 1 (01–08 Mai)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#objectifs-de-la-periode" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Objectifs de la période
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#travail-realise" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Travail réalisé
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Travail réalisé">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#profil-des-participants" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Profil des participants
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#questionnaire" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questionnaire
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#protocole-experimental-experience-controlee" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Protocole expérimental ( Expérience contrôlée)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decisions-et-ajustements" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Décisions et ajustements
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#difficultes-rencontrees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Difficultés rencontrées
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -581,14 +434,9 @@
   
   
   <span class="md-ellipsis">
-    
-  
     Études préliminaires
-  
-
     
   </span>
-  
   
 
       </a>
@@ -603,19 +451,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../realisation/" class="md-nav__link">
+      <a href="../conception.md" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    
-  
     Réalisation
-  
-
     
   </span>
-  
   
 
       </a>
@@ -635,14 +478,9 @@
   
   
   <span class="md-ellipsis">
-    
-  
     Évaluation
-  
-
     
   </span>
-  
   
 
       </a>
@@ -670,114 +508,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table des matières
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#semaine-1-0108-mai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Semaine 1 (01–08 Mai)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Semaine 1 (01–08 Mai)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#objectifs-de-la-periode" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Objectifs de la période
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#travail-realise" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Travail réalisé
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Travail réalisé">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#profil-des-participants" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Profil des participants
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#questionnaire" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Questionnaire
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#protocole-experimental-experience-controlee" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Protocole expérimental ( Expérience contrôlée)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#decisions-et-ajustements" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Décisions et ajustements
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#difficultes-rencontrees" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Difficultés rencontrées
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -786,7 +516,6 @@
           
           
             <div class="md-content" data-md-component="content">
-              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -804,124 +533,76 @@
     }
 </style>
 
-<h1 id="suivi-de-projet">Suivi de projet<a class="headerlink" href="#suivi-de-projet" title="Permanent link">&para;</a></h1>
-<blockquote>
-<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> Cette page documente l’évolution du projet dans le temps.
-Elle sert à rendre visibles les décisions, ajustements et apprentissages.
-Les entrées peuvent être hebdomadaires ou bi-hebdomadaires.<br />
-N'oubliez pas d’effacer ou de mettre en commentaires les notes (<code>&gt;</code>) avant la remise finale.</p>
-</blockquote>
-<hr />
-<h2 id="semaine-1-0108-mai">Semaine 1 (01–08 Mai)<a class="headerlink" href="#semaine-1-0108-mai" title="Permanent link">&para;</a></h2>
-<h3 id="objectifs-de-la-periode">Objectifs de la période<a class="headerlink" href="#objectifs-de-la-periode" title="Permanent link">&para;</a></h3>
-<ul>
-<li>Clarifier la problématique et le contexte étudiés;</li>
-<li>Peaufiner le plan du projet;</li>
-<li>Trouver des banques sonores pour les données à utiliser durant la première expérience de classification sonore;</li>
-<li>Sélectionner des catégories représentatives des évènements sonores auxquels les individus sont quotidiennement exposés;</li>
-<li>Normaliser les différents extraits sonores sélectionnés à partir de ces banques.</li>
-<li>Former les bases du protocole expérimental.</li>
-</ul>
-<h3 id="travail-realise">Travail réalisé<a class="headerlink" href="#travail-realise" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>- [] Choix des extraits
-- [] Normalisation des extraits
-</code></pre></div>
-<p>La normalisation se fera en utilisant soit la commande ffmpeg-normalize soit la librairie Python pyloudnorm qui implémentent la norme ITU-R BS.1770 pour la mesure et la normalisation du loudness audio. Les stimuli seront normalisés à -23 LUFS ( valeur par défaut prévue par le standard).
-    - [✔] Trouvaille des banques sonores
-       La banque sonore freesound a été retenue; cette dernière propose des extraits sonores enregistrés et postés par des personnes des quatre côtés du globe. Toutefois, afin d'en assurer la qualité, nous utiliserons le dataset FSD50K qui contient des enregistrements de freesound hierarchisés, et qui ont subi un traitement préalable notamment l'étiquettage correct.
-    - [✔] Sélection des catégories pertinentes pour le projet
-       Parmi les 354 classes d'évènements sonores répertoriées dans le dataset FSD50K, les catégories suivantes ont été retenues :</p>
-<ul>
-<li>Air_conditioning — /m/025wky1</li>
-<li>Bird — /m/015p6</li>
-<li>Bird_flight_and_flapping_wings — /m/05_wcq</li>
-<li>Bird_vocalization_and_bird_call_and_bird_song — /m/020bb7</li>
-<li>
-<p>Blender — /m/02pjr4</p>
-</li>
-<li>
-<p>Chainsaw — /m/01j4z9 ( tronçonneuse)</p>
-</li>
-<li>Drill — /m/01d380</li>
-<li>Hair_dryer — /m/03wvsk</li>
-<li>Mechanical_fan — /m/02x984l</li>
-<li>Microwave_oven — /m/0fx9l</li>
-<li>Vacuum cleaner</li>
-<li>Jackhammer</li>
-<li>Lawn mower</li>
-<li>Ascenseur;</li>
-<li>Tuyauterie;</li>
-<li>Aspirateur;</li>
-</ul>
-<h4 id="profil-des-participants">Profil des participants<a class="headerlink" href="#profil-des-participants" title="Permanent link">&para;</a></h4>
-<p>Les critères de sélection sont les suivants :</p>
-<ul>
-<li>Adulte ( 18 - 60); : 65+ risque de presbyacousie ( perte auditive progressive, ce qui introduirait un biais). Axelsson avait choisi de 19 à 54 ans. Ça permet d'avoir de la diversité.</li>
-<li>Résident à Montréal ( au moins 2 ans ? ça ne restreint pas le recrutement, mais ça exclut des personnes qui n'ont pas eu le temps de s'acclimater) pour éviter l'impact de la familiarité sans pour antant le supprimer;</li>
-<li>Pas de diagnostic de troubles auditifs afin de s'assurer que les différences de perception ne sont pas attribuables à des déficits sensoriels.</li>
-</ul>
-<p>Les variables de contrôle ( variables dont l'influence doit être négligeable  - epsilon - ) sont :
-- Âge;
-- La longueur de la période de résidence dans leur quartier;
-- Genre;
-- Quartier de résidence; ( qui a un impact sur le facteur d'habituation)
-- Exposition professionnelle au bruit;
-- Historique des troubles auditifs;
-- Type d'habitat : immeuble, appartement, maison.
-- A quel étage? ( y a des études qui montrent qu'il pourrait exister une relation curvilinéaire entre le niveau de nuisance et l'étage d'habitat );
-- L'heure de la journée où l'étude est réalisée;</p>
-<h4 id="questionnaire">Questionnaire<a class="headerlink" href="#questionnaire" title="Permanent link">&para;</a></h4>
-<p>Inclure une mesure du niveau de sensibilité au son selon l'échelle de Weinstein 1978? ( mieux le WNS-6B qui est une amélioration de l'échelle de Weinstein qui implique une réduction du biais lié à l'intensité sonore)  Les personnes hypersensibles étant celles qui sont les plus affectées par les sons résidentiels, cela permettrait de cibler des personnes plus représentatives de la population cible.</p>
+<h1 id="suivi-de-projet">SUIVI DE PROJET<a class="headerlink" href="#suivi-de-projet" title="Permanent link">&para;</a></h1>
+<h1 id="semaine-1-0108-mai">Semaine 1 (01–08 Mai)<a class="headerlink" href="#semaine-1-0108-mai" title="Permanent link">&para;</a></h1>
+<h2 id="objectifs-de-la-periode">Objectifs de la période<a class="headerlink" href="#objectifs-de-la-periode" title="Permanent link">&para;</a></h2>
+<p>Les objectifs de cette première semaine sont les suivants :</p>
 <ol>
-<li>Je me réveille facilement à cause du bruit</li>
-<li>Le bruit m'empêche de me détendre</li>
-<li>Je me plains du bruit à mon entourage</li>
-<li>Je me considère sensible au bruit</li>
+<li>Clarifier la problématique et le contexte étudiés</li>
+<li>Peaufiner le plan du projet</li>
+<li>Trouver des banques sonores adaptées à la première expérience de classification sonore</li>
+<li>Sélectionner des catégories représentatives des évènements sonores auxquels les individus sont quotidiennement exposés en environnement résidentiel urbain</li>
+<li>Normaliser les extraits sonores sélectionnés</li>
+<li>Former les bases du protocole expérimental</li>
 </ol>
-<p>Score évalué à l'aide de l'échelle de Likert.</p>
-<p>Logiciel : LimeSurvey ( envoi de mail au TI) ou Qualtrics ( envoi de mail à la faculté de médécine).</p>
-<p>En cas de double refus, Google Forms.</p>
-<h4 id="protocole-experimental-experience-controlee">Protocole expérimental ( Expérience contrôlée)<a class="headerlink" href="#protocole-experimental-experience-controlee" title="Permanent link">&para;</a></h4>
+<h2 id="travail-realise">Travail réalisé<a class="headerlink" href="#travail-realise" title="Permanent link">&para;</a></h2>
+<h3 id="banques-sonores">Banques sonores<a class="headerlink" href="#banques-sonores" title="Permanent link">&para;</a></h3>
+<p>La banque sonore <span>Freesound</span> a été retenue comme source principale. Freesound propose des extraits sonores enregistrés et partagés par des contributeurs du monde entier. Toutefois, afin d'en assurer la qualité et la pertinence, les extraits seront issus du dataset <span>FSD50K</span>, qui contient des enregistrements Freesound hiérarchisés ayant subi un traitement préalable, notamment un étiquetage rigoureux effectué par des annotateurs humains via un mécanisme de contrôle qualité.</p>
+<h3 id="selection-des-categories-pertinentes">Sélection des catégories pertinentes<a class="headerlink" href="#selection-des-categories-pertinentes" title="Permanent link">&para;</a></h3>
+<p>Parmi les 200 classes d'évènements sonores répertoriées dans le dataset FSD50K, les catégories suivantes ont été retenues comme représentatives de l'environnement résidentiel urbain montréalais :  <!-- ( voir le Notion ) À COMPLÉTER!! --></p>
+<h3 id="normalisation-des-extraits">Normalisation des extraits<a class="headerlink" href="#normalisation-des-extraits" title="Permanent link">&para;</a></h3>
+<p>La normalisation sera effectuée à l'aide de la librairie Python <strong>pyloudnorm</strong>, qui implémente la norme <strong>ITU-R BS.1770</strong> pour la mesure et la normalisation du loudness audio. Les stimuli seront normalisés à <strong>-23 LUFS</strong>, valeur par défaut prévue par ce standard. Cette étape est directement liée à l'hypothèse testable de l'étude : en normalisant l'intensité perçue de tous les stimuli, on s'assure que les différences de perception observées sont attribuables aux caractéristiques intrinsèques des sons et non à leur niveau sonore.</p>
+<h3 id="profil-des-participants">Profil des participants<a class="headerlink" href="#profil-des-participants" title="Permanent link">&para;</a></h3>
+<p>Les critères de sélection sont les suivants :</p>
+<p><strong>Critères d'inclusion</strong></p>
+<p>Adultes âgés de 24 à 40 ans ( La borne inférieure de 24 ans est justifiée par le fait que le cortex préfrontal atteint sa pleine maturité aux alentours de 25 ans )</p>
+<p>Résidents de Montréal ou d'une ville présentant une ambiance sonore urbaine comparable, depuis au moins 2 ans. Ce critère permet d'exclure les personnes n'ayant pas eu le temps de s'acclimater à leur environnement sonore, sans pour autant supprimer complètement l'effet de la familiarité, qui constitue une variable de contrôle.</p>
+<p><strong>Critères d'exclusion</strong></p>
+<p>Absence de diagnostic de trouble auditif, afin de s'assurer que les différences de perception observées ne sont pas attribuables à des déficits sensoriels.</p>
+<p><strong>Variables de contrôle</strong></p>
+<p>Les variables suivantes seront collectées et documentées, leur influence étant considérée comme négligeable (ε) dans le cadre de cette étude, mais nécessaire à la description de l'échantillon :</p>
 <ul>
-<li>
-<p>Hypothèse testable ( étape 1) : Certaines catégories de sons urbains résidentiels sont perçues de manière significativement plus négative que d'autres telle que mesurée par les attributs d'agrément et d'animositié de l'ISO 12913-2, et ce, indépendamment de leur intensité sonore.</p>
-</li>
-<li>
-<p>Variables indépendantes : les catégories d'extraits sonores.</p>
-</li>
-<li>
-<p>Variables dépendantes: perception individuelle ( score selon les attributs perceptifs ISO 12913-2), la valence perçue ( positif/négatif/neutre).</p>
-</li>
+<li>Âge</li>
+<li>Genre</li>
+<li>Quartier de résidence (impact potentiel sur le facteur d'habituation)</li>
+<li>Durée de résidence dans le quartier actuel</li>
+<li>Exposition professionnelle au bruit</li>
+<li>Présence de troubles auditifs auto-déclarés</li>
 </ul>
-<p>Comment les changements dans les variables indépendantes affectent les variables dépendantes? </p>
-<p>Le protocole :
-Pour chaque participant, on assigne de manière aléatoire l'une des x grandes catégories.</p>
-<p>Randomiser l'ordre des extraits sonores au sein d'une même catégorie pour chaque participant.</p>
-<p>Faire une pause de 3-5 secondes entre les différents enregistrements pour "l'adaptation sensorielle".</p>
-<p>Cette randomisation permet de réduire le biais introduit dans le jugement perceptif du fait de de l'effet latent des évènements sonores sur leurs suivants.</p>
+<h3 id="questionnaire">Questionnaire<a class="headerlink" href="#questionnaire" title="Permanent link">&para;</a></h3>
+<p><strong>Mesure de la sensibilité au bruit</strong>  ( utiliser un audiomètre serait plus favorable)</p>
+<!-- >
+L'inclusion d'une mesure du niveau de sensibilité au bruit est envisagée, à partir du <span>WNS-6B </span> (Kishikawa et al., 2006), une amélioration de l'échelle originale de Weinstein (1978). Le WNS-6B présente l'avantage d'exclure les questions biaisées par le niveau d'exposition sonore et d'appliquer un codage binaire aux options de réponse, réduisant ainsi le biais de réponse. Les personnes hypersensibles étant les plus affectées par les sons résidentiels, cette mesure permettrait de mieux caractériser la population cible. Quatre items issus de cette échelle seront retenus, sur la base des travaux de Kishikawa et al. (2006) :
+
+- Je me réveille facilement à cause du bruit
+-  Le bruit m'empêche de me détendre
+- Je me plains du bruit à mon entourage
+- Je me considère sensible au bruit
+
+Ces items seront évalués à l'aide d'une échelle de Likert en 5 points.
+
+ #### Logiciel de création du questionnaire
+
+-->
+
+<h3 id="protocole-experimental">Protocole expérimental<a class="headerlink" href="#protocole-experimental" title="Permanent link">&para;</a></h3>
+<p>Le protocole suit le cadre de l'<strong>expérience contrôlée</strong> (<!-- cf. notes IFT2905 --> )</p>
+<h4 id="hypothese-testable-phase-1">Hypothèse testable (Phase 1)<a class="headerlink" href="#hypothese-testable-phase-1" title="Permanent link">&para;</a></h4>
+<p>Certaines catégories de sons urbains résidentiels suscitent une perception significativement plus négative que d'autres, telle que mesurée par les attributs d'agrément et d'animosité de l'ISO 12913-2, et ce, indépendamment de leur intensité sonore.</p>
+<p><strong>Variables</strong></p>
+<p>Les variables indépendantes sont les catégories d'extraits sonores présentés aux participants. Les variables dépendantes sont la perception individuelle, mesurée par les scores obtenus sur les attributs perceptifs de l'ISO 12913-2, ainsi que la valence perçue  <!-- ( ?) -->(positive, négative ou neutre).</p>
+<p><strong>Déroulement</strong></p>
+<p>Pour chaque participant, l'ordre de présentation des extraits sonores sera randomisé de manière individuelle. Une pause silencieuse de 3 à 5 secondes sera ménagée entre chaque extrait afin de limiter l'effet de contraste , c'est-à-dire l'influence latente d'un extrait sur la perception du suivant. Cette randomisation constitue la principale stratégie de contrôle du biais  lié à l'ordre.</p>
 <h3 id="decisions-et-ajustements">Décisions et ajustements<a class="headerlink" href="#decisions-et-ajustements" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>À compléter uniquement si des choix structurants ont été faits
-ou si l’orientation du projet a évolué.</p>
-</blockquote>
 <div class="admonition info">
 <p class="admonition-title">Décisions</p>
-<ul>
-<li>Les extraits courts ont été ignorés, car l'option de les faire boucler introduirait des biais selon moi : l'appréciation du participant pourrait être influencée par la coupure audible à la jonction entre la fin et le début du clip.</li>
-</ul>
+<p>Les extraits sonores d'une durée insuffisante ont été écartés du corpus. L'option de les faire boucler a été jugée inadéquate : la coupure audible à la jonction entre la fin et le début du clip risquerait d'influencer l'appréciation du participant de manière artificielle, introduisant ainsi un biais non contrôlé.</p>
 </div>
 <h3 id="difficultes-rencontrees">Difficultés rencontrées<a class="headerlink" href="#difficultes-rencontrees" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>À compléter uniquement si des obstacles ont eu un impact réel
-sur l’avancement du projet.</p>
-</blockquote>
 <div class="admonition warning">
 <p class="admonition-title">Difficultés</p>
-<ul>
-<li>Téléchargement des fichiers audio. En effet, le dataset FSD50K propose des dossiers zip relativement lourds et pour trouver un fichier correspondant à une classe précise, il faudrait tout télécharger et rechercher manuellement. Pour pallier à ce problème, le téléchargement se fera à travers l'interface de freesound ( par exemple :  https://freesound.org/apiv2/sounds/388682/download/</li>
-</ul>
+<p>Le téléchargement des fichiers audio pose un défi logistique. Le dataset FSD50K est distribué sous forme de fichiers zip volumineux, sans organisation par classe sonore. Identifier et extraire les fichiers correspondant à une classe précise nécessiterait de tout télécharger avant de rechercher manuellement. Pour contourner ce problème, les téléchargements se feront directement via l'API Freesound, les identifiants <code>fname</code> du dataset FSD50K correspondant aux identifiants de sons Freesound (exemple : <code>https://freesound.org/apiv2/sounds/388682/download/</code>).</p>
 </div>
-<p>avec 3888682 un fname correspondant à un mid associé à une classe précise ).</p>
 
 
 
@@ -985,11 +666,10 @@ sur l’avancement du projet.</p>
     
     
       
-      
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "search.share", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "search.share", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
