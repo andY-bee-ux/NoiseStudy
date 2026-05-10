@@ -10,53 +10,111 @@ title: Vue d'ensemble du projet
     }
 </style>
 
-# Vue d'ensemble du projet
+# VUE D'ENSEMBLE DU PROJET 
 
 !!! info "Informations générales"
     **Session**: Été 2026  
-    **Auteur(s)**: <!-- Nom de chaque membre (matricule)  -->  
-    **Thème(s)**: <!-- Thèmes principaux abordés dans le projet  -->  
-    **Superviseur(s)**: <!-- Nom du superviseur (affiliation)  -->  
-    **Collaborateur(s):** <!-- Nom de(s) collaborateur(s) et partenaire(s)` -->  
-
-## Description du projet
-
-> :bulb: N'oubliez pas d'effacer ou mettre en commentaires les notes (`>`) en début de section
-
-### Contexte
-
-> Présentez le contexte général dans lequel s’inscrit votre projet (social, organisationnel, technologique, éducatif, environnemental, etc.).
-
-### Problématique
-
-> Décrivez le problème central ou la question de recherche que votre projet cherche à adresser, pourquoi s'y intéresser et les faiblesses des solutions actuelles. 
-> Le problème doit pouvoir être compris indépendamment de la solution envisagée.
-
-### Proposition et objectifs
-
-> Présentez votre proposition de projet et les objectifs visés. Expliquez en quoi votre approche répond à la problématique identifiée. 
-> Assurez-vous d'avoir, dans la mesure du possible, des objectifs mesurables, raisonnnables dans le temps et non redondants entre eux.
-
-### Méthodologie
-
-> Expliquez comment vous comptez aborder le projet : démarche générale, grandes étapes prévues, itérations, types de validations envisagées.
-
-### Validation et Évaluation
-
-> Indiquez comment vous évaluerez que votre solution répond aux objectifs du projet (ex. scénarios d’usage, tests, retours utilisateurs, indicateurs qualitatifs ou quantitatifs).
+    **Auteur(s)**: Andréa Noukoua Djodi (20279717)  
+    **Thème(s)**: Nuisances sonores  
+    **Superviseur(s)**: Louis-Edouard Lafontant  
+    **Collaborateur(s):** —
 
 
-## Équipe
+# DESCRIPTION DU PROJET 
 
-> Présentez les membres de l’équipe et le rôle principal de chacun dans le projet.
+Ce projet s'inscrit dans le champ de la <span style="color:#9E1946;
+  font-weight: bold;">psychoacoustique urbaine </span> et vise à mieux comprendre la manière dont les habitants d'environnements résidentiels urbains perçoivent et catégorisent les bruits auxquels ils sont quotidiennement exposés. Face à la complexité et à la subjectivité inhérentes à l'expérience sonore, une approche centrée sur la <span style="color:#9E1946;
+  font-weight: bold;"> perception humaine </span> a été privilégiée, plutôt qu'une caractérisation basée sur l'intensité des différents bruits.
 
-## Échéancier
+La <span style="color:#9E1946;
+  font-weight: bold;"> première phase du projet </span> consiste en une étude qualitative qui résulterait en une classification perceptive. Des participants résidant en milieu urbain montréalais ou milieu similaire, sont exposés, en conditions contrôlées, à un corpus d'événements sonores représentatifs de leur environnement quotidien, incluant notamment des sons liés aux appareils électroménagers et aux équipements urbains et résidentiels. À l'issue de chaque écoute, les participants rempliront un questionnaire mesurant leurs appréciations perceptives. L'analyse des données recueillies permettra d'établir une taxonomie des sons selon leur valence perçue.
+
+La <span style="color:#9E1946;
+  font-weight: bold;"> seconde phase </span> s'appuie sur les résultats de cette classification pour concevoir et évaluer un système de requalification sonore. Le principe repose sur la <span style="color:#9E1946;
+  font-weight: bold;">superposition </span> de sons perçus comme neutres à des événements sonores à valence négative, dans le but d'obtenir des combinaisons acoustiques plus agréables, le but n'étant pas de supprimer les sons indésirables, mais de modifier leur perception en les combinant avec une source sonore plaisante.
+
+L'ensemble de la démarche s'ancre dans le cadre conceptuel du *soundscape*, tel que défini par la série de normes ISO 12913, et s'appuie notamment sur le modèle circomplexe d'Axelsson, Nilsson et Berglund (2010), qui définit la perception des paysages sonores autour des dimensions  <span style="color:#9E1946;
+  font-weight: bold;">d'agréabilité </span> (*pleasantness*) et <span style="color:#9E1946;
+  font-weight: bold;"> d'animosité </span> (*eventfulness*).
+
+
+
+# CONTEXTE 
+
+L'environnement sonore urbain est une composante centrale de la qualité de vie en milieu résidentiel. En contexte montréalais, les habitants sont exposés à une diversité de sources sonores ; *trafic routier, chantiers de construction, équipements domestiques*, entre autres. Ces derniers affectent le bien-être de manière significative et, bien que cela soit largement documenté, l'influence des bruits du quotidien reste mal comprise dans sa dimension perceptive et subjective
+
+Les approches traditionnelles de gestion du bruit urbain reposent principalement sur <span style="color:#9E1946;
+  font-weight: bold;">des mesures physiques objectives </span>, comme le niveau de pression sonore en décibels. Or, la gêne perçue par un individu ne dépend pas uniquement de l'intensité d'un son, mais également de sa nature, de sa familiarité, du contexte dans lequel il survient et de la sensibilité propre de l'auditeur. Cette dissociation entre mesure objective et perception subjective oblige une approche centrée sur l'humain.
+
+Par ailleurs, les solutions existantes de traitement du bruit ( isolation acoustique, atténuation à la source ) sont souvent coûteuses, difficilement applicables en rénovation, et ne tiennent pas compte de la dimension perceptive <!--( cite la métaanalyse d) -->. Des approches alternatives, comme le masquage sonore offrent des perspectives prometteuses mais restent peu documentées dans un contexte résidentiel urbain nord-américain <!--(cite e )-->.
+
+
+
+#  PROBLÉMATIQUE 
+
+*Comment les résidents d'environnements urbains montréalais perçoivent-ils et catégorisent-ils les événements sonores de leur quotidien, et dans quelle mesure la superposition d'un son à valence neutre peut-elle améliorer la perception d'un son à valence négative ?*
+
+Cette question soulève plusieurs enjeux. D'une part, il n'existe pas  <!--( trop rigide, contre-argument ?) --> ( à notre connaissance ) de taxonomie perceptive des sons résidentiels urbains établie pour le contexte montréalais. D'autre part, les mécanismes par lesquels un son neutre modifie la perception d'un son négatif (qu'il s'agisse d'un simple camouflage ou d'une transformation plus profonde de l'expérience sonore ) restent peu explorés. Enfin, les solutions de requalification sonore existantes sont rarement conçues à partir de données perceptives recueillies directement auprès des populations concernées et impliquées.
+
+
+#  PROPOSITION ET OBJECTIFS 
+
+Ce projet propose une démarche en deux phases articulées autour de la <span style="color:#9E1946;
+  font-weight: bold;">perception humaine</span> comme variable centrale.
+
+La première phase vise à constituer une taxonomie <span style="color:#9E1946;
+  font-weight: bold;">empirique</span> des sons résidentiels urbains montréalais selon leur valence perçue. Cette taxonomie sera établie à partir de données collectées auprès de participants exposés à un corpus de sons représentatifs de leur environnement quotidien, évalués selon les attributs perceptifs de l'ISO 12913-2.
+
+La seconde phase vise à identifier, à partir de cette taxonomie, quels types de sons neutres compensent le mieux la perception négative associée à chaque catégorie de sons identifiée. Elle produira un système de correspondance entre différentes catégories de sons, constituant une base empirique pour la conception de stratégies de requalification sonore adaptées au contexte résidentiel.
+
+Les objectifs spécifiques sont les suivants :
+
+- Constituer un corpus de sons résidentiels urbains normalisé et représentatif du contexte montréalais
+- Établir une taxonomie perceptive des sons selon leur valence à partir des évaluations de participants
+- Identifier les combinaisons son "négatif" / son "neutre" les plus efficaces pour améliorer la perception globale
+- Produire un système de correspondance exploitable dans une perspective de design sonore résidentiel
+
+
+#  MÉTHODOLOGIE 
+
+La démarche est structurée autour de deux expériences contrôlées successives.
+
+## Constitution du corpus sonore 
+
+Les stimuli sont issus du dataset FSD50K, dérivé de la plateforme Freesound et composé d'enregistrements annotés et validés par des annotateurs humains. Parmi les 354 classes disponibles, une sélection de catégories écologiquement valides pour le contexte résidentiel montréalais a été effectuée. Les extraits sont normalisés à -23 LUFS conformément à la norme ITU-R BS.1770-4, à l'aide de la librairie Python pyloudnorm (Steinmetz et Reiss, 2021), afin que les différences de perception observées ne soient pas attribuables à l'intensité sonore.
+
+## Phase 1 :Classification perceptive 
+
+Des participants sont exposés individuellement, en conditions contrôlées, à un ensemble de sons isolés présentés dans un ordre aléatoire propre à chaque participant. Une pause silencieuse de 3 à 5 secondes est ménagée entre chaque extrait pour limiter les effets de contraste. À l'issue de chaque écoute, le participant évalue le son à l'aide d'un questionnaire structuré autour des attributs perceptifs de l'ISO 12913-2. Les données collectées font ensuite l'objet d'une analyse statistique permettant d'établir la taxonomie des sons.
+
+## Phase 2 : Requalification sonore 
+
+À partir de la taxonomie produite en Phase 1, des mixages sont générés en superposant des sons à valence "négative"  <!-- ( à redéfinir) --> avec des sons à valence "neutre', selon différents ratios de mixage. Ces combinaisons sont présentées aux participants selon le même protocole qu'en Phase 1, avec et sans le son neutre ajouté, afin de mesurer l'effet de la superposition sur la perception. Les résultats permettront d'établir le système de correspondance entre types de sons "négatifs" et types de sons "neutres" compensateurs.
+
+#  VALIDATION ET ÉVALUATION 
+
+La validité interne de l'étude repose sur plusieurs mécanismes : normalisation des stimuli en loudness, randomisation de l'ordre de présentation, collecte de variables de contrôle (âge, sensibilité au bruit, exposition professionnelle, durée de résidence), et sessions réalisées en personne dans un environnement acoustique contrôlé.
+
+La validité externe sera évaluée en comparant les résultats obtenus avec ceux de la littérature existante, notamment les travaux d'Axelsson et al. (2010) et de Aletta (2016) sur la perception des paysages sonores urbains.
+
+L'évaluation des résultats de la Phase 2 reposera sur la comparaison des scores perceptifs avant et après superposition, à l'aide de tests statistiques appariés (test t de Student ou équivalent non paramétrique selon la distribution des données).
+
+
+
+#  ÉQUIPE 
+
+| Membre | Rôle |
+|--------|------|
+| Andréa Noukoua Djodi ||
+| Louis-Edouard Lafontant | Supervision |
+
+
+
+#  ÉCHÉANCIER 
 
 !!! info
     Le suivi complet est disponible dans la page [Suivi de projet](suivi.md).
 
-| Activités                      | Début   |   Fin   | Livrable                            | Statut      |
-|--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 4 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
-| Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |
+| Activités | Début | Fin | Livrable | Statut |
+|-----------|-------|-----|----------|--------|
+| Ouverture de projet | 1 mai | 1 mai | Proposition de projet | ✅ Terminé |
