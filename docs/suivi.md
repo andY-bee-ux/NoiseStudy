@@ -10,121 +10,111 @@ title: Suivi du projet
     }
 </style>
 
-# Suivi de projet
+# SUIVI DE PROJET
 
-> :bulb: Cette page documente l’évolution du projet dans le temps.
-> Elle sert à rendre visibles les décisions, ajustements et apprentissages.
-> Les entrées peuvent être hebdomadaires ou bi-hebdomadaires.  
-> N'oubliez pas d’effacer ou de mettre en commentaires les notes (`>`) avant la remise finale.
+# Semaine 1 (01–08 Mai)
 
----
+## Objectifs de la période 
 
-## Semaine 1 (01–08 Mai)
+Les objectifs de cette première semaine sont les suivants :
 
-### Objectifs de la période
-- Clarifier la problématique et le contexte étudiés;
-- Peaufiner le plan du projet;
-- Trouver des banques sonores pour les données à utiliser durant la première expérience de classification sonore;
-- Sélectionner des catégories représentatives des évènements sonores auxquels les individus sont quotidiennement exposés;
-- Normaliser les différents extraits sonores sélectionnés à partir de ces banques.
-- Former les bases du protocole expérimental.
-
-### Travail réalisé
-
-    - [] Choix des extraits
-    - [] Normalisation des extraits
-La normalisation se fera en utilisant soit la commande ffmpeg-normalize soit la librairie Python pyloudnorm qui implémentent la norme ITU-R BS.1770 pour la mesure et la normalisation du loudness audio. Les stimuli seront normalisés à -23 LUFS ( valeur par défaut prévue par le standard).
-    - [✔] Trouvaille des banques sonores
-       La banque sonore freesound a été retenue; cette dernière propose des extraits sonores enregistrés et postés par des personnes des quatre côtés du globe. Toutefois, afin d'en assurer la qualité, nous utiliserons le dataset FSD50K qui contient des enregistrements de freesound hierarchisés, et qui ont subi un traitement préalable notamment l'étiquettage correct.
-    - [✔] Sélection des catégories pertinentes pour le projet
-       Parmi les 354 classes d'évènements sonores répertoriées dans le dataset FSD50K, les catégories suivantes ont été retenues :
-   
-- Air_conditioning — /m/025wky1
-- Bird — /m/015p6
-- Bird_flight_and_flapping_wings — /m/05_wcq
-- Bird_vocalization_and_bird_call_and_bird_song — /m/020bb7
-- Blender — /m/02pjr4
-
-- Chainsaw — /m/01j4z9 ( tronçonneuse)
-- Drill — /m/01d380
-- Hair_dryer — /m/03wvsk
-- Mechanical_fan — /m/02x984l
-- Microwave_oven — /m/0fx9l
-- Vacuum cleaner
-- Jackhammer
-- Lawn mower
-- Ascenseur;
-- Tuyauterie;
-- Aspirateur;
+1. Clarifier la problématique et le contexte étudiés
+2. Peaufiner le plan du projet
+3. Trouver des banques sonores adaptées à la première expérience de classification sonore
+4. Sélectionner des catégories représentatives des évènements sonores auxquels les individus sont quotidiennement exposés en environnement résidentiel urbain
+5. Normaliser les extraits sonores sélectionnés
+6. Former les bases du protocole expérimental
 
 
-#### Profil des participants
+## Travail réalisé 
+
+### Banques sonores
+
+La banque sonore <span>Freesound</span> a été retenue comme source principale. Freesound propose des extraits sonores enregistrés et partagés par des contributeurs du monde entier. Toutefois, afin d'en assurer la qualité et la pertinence, les extraits seront issus du dataset <span>FSD50K</span>, qui contient des enregistrements Freesound hiérarchisés ayant subi un traitement préalable, notamment un étiquetage rigoureux effectué par des annotateurs humains via un mécanisme de contrôle qualité.
+
+
+### Sélection des catégories pertinentes
+
+Parmi les 200 classes d'évènements sonores répertoriées dans le dataset FSD50K, les catégories suivantes ont été retenues comme représentatives de l'environnement résidentiel urbain montréalais :  <!-- ( voir le Notion ) À COMPLÉTER!! -->
+
+
+### Normalisation des extraits
+
+La normalisation sera effectuée à l'aide de la librairie Python **pyloudnorm**, qui implémente la norme **ITU-R BS.1770** pour la mesure et la normalisation du loudness audio. Les stimuli seront normalisés à **-23 LUFS**, valeur par défaut prévue par ce standard. Cette étape est directement liée à l'hypothèse testable de l'étude : en normalisant l'intensité perçue de tous les stimuli, on s'assure que les différences de perception observées sont attribuables aux caractéristiques intrinsèques des sons et non à leur niveau sonore.
+
+
+
+### Profil des participants
 
 Les critères de sélection sont les suivants :
 
-- Adulte ( 18 - 60); : 65+ risque de presbyacousie ( perte auditive progressive, ce qui introduirait un biais). Axelsson avait choisi de 19 à 54 ans. Ça permet d'avoir de la diversité.
-- Résident à Montréal ( au moins 2 ans ? ça ne restreint pas le recrutement, mais ça exclut des personnes qui n'ont pas eu le temps de s'acclimater) pour éviter l'impact de la familiarité sans pour antant le supprimer;
-- Pas de diagnostic de troubles auditifs afin de s'assurer que les différences de perception ne sont pas attribuables à des déficits sensoriels.
+**Critères d'inclusion**
 
-Les variables de contrôle ( variables dont l'influence doit être négligeable  - epsilon - ) sont :
-- Âge;
-- La longueur de la période de résidence dans leur quartier;
-- Genre;
-- Quartier de résidence; ( qui a un impact sur le facteur d'habituation)
-- Exposition professionnelle au bruit;
-- Historique des troubles auditifs;
-- Type d'habitat : immeuble, appartement, maison.
-- A quel étage? ( y a des études qui montrent qu'il pourrait exister une relation curvilinéaire entre le niveau de nuisance et l'étage d'habitat );
-- L'heure de la journée où l'étude est réalisée;
+Adultes âgés de 24 à 40 ans ( La borne inférieure de 24 ans est justifiée par le fait que le cortex préfrontal atteint sa pleine maturité aux alentours de 25 ans )
 
-#### Questionnaire
+Résidents de Montréal ou d'une ville présentant une ambiance sonore urbaine comparable, depuis au moins 2 ans. Ce critère permet d'exclure les personnes n'ayant pas eu le temps de s'acclimater à leur environnement sonore, sans pour autant supprimer complètement l'effet de la familiarité, qui constitue une variable de contrôle.
 
-Inclure une mesure du niveau de sensibilité au son selon l'échelle de Weinstein 1978? ( mieux le WNS-6B qui est une amélioration de l'échelle de Weinstein qui implique une réduction du biais lié à l'intensité sonore)  Les personnes hypersensibles étant celles qui sont les plus affectées par les sons résidentiels, cela permettrait de cibler des personnes plus représentatives de la population cible.
+**Critères d'exclusion**
 
-1. Je me réveille facilement à cause du bruit
-2. Le bruit m'empêche de me détendre
-3. Je me plains du bruit à mon entourage
-4. Je me considère sensible au bruit
+Absence de diagnostic de trouble auditif, afin de s'assurer que les différences de perception observées ne sont pas attribuables à des déficits sensoriels.
 
-Score évalué à l'aide de l'échelle de Likert.
+**Variables de contrôle**
 
-Logiciel : LimeSurvey ( envoi de mail au TI) ou Qualtrics ( envoi de mail à la faculté de médécine).
+Les variables suivantes seront collectées et documentées, leur influence étant considérée comme négligeable (ε) dans le cadre de cette étude, mais nécessaire à la description de l'échantillon :
 
-En cas de double refus, Google Forms.
+- Âge
+- Genre
+- Quartier de résidence (impact potentiel sur le facteur d'habituation)
+- Durée de résidence dans le quartier actuel
+- Exposition professionnelle au bruit
+- Présence de troubles auditifs auto-déclarés
 
-#### Protocole expérimental ( Expérience contrôlée)
 
-- Hypothèse testable ( étape 1) : Certaines catégories de sons urbains résidentiels sont perçues de manière significativement plus négative que d'autres telle que mesurée par les attributs d'agrément et d'animositié de l'ISO 12913-2, et ce, indépendamment de leur intensité sonore.
+### Questionnaire
 
-- Variables indépendantes : les catégories d'extraits sonores.
+**Mesure de la sensibilité au bruit**  ( utiliser un audiomètre serait plus favorable)
 
-- Variables dépendantes: perception individuelle ( score selon les attributs perceptifs ISO 12913-2), la valence perçue ( positif/négatif/neutre).
+<!-- >
+L'inclusion d'une mesure du niveau de sensibilité au bruit est envisagée, à partir du <span>WNS-6B </span> (Kishikawa et al., 2006), une amélioration de l'échelle originale de Weinstein (1978). Le WNS-6B présente l'avantage d'exclure les questions biaisées par le niveau d'exposition sonore et d'appliquer un codage binaire aux options de réponse, réduisant ainsi le biais de réponse. Les personnes hypersensibles étant les plus affectées par les sons résidentiels, cette mesure permettrait de mieux caractériser la population cible. Quatre items issus de cette échelle seront retenus, sur la base des travaux de Kishikawa et al. (2006) :
 
-Comment les changements dans les variables indépendantes affectent les variables dépendantes? 
+- Je me réveille facilement à cause du bruit
+-  Le bruit m'empêche de me détendre
+- Je me plains du bruit à mon entourage
+- Je me considère sensible au bruit
 
-Le protocole :
-Pour chaque participant, on assigne de manière aléatoire l'une des x grandes catégories.
+Ces items seront évalués à l'aide d'une échelle de Likert en 5 points.
 
-Randomiser l'ordre des extraits sonores au sein d'une même catégorie pour chaque participant.
+ #### Logiciel de création du questionnaire
 
-Faire une pause de 3-5 secondes entre les différents enregistrements pour "l'adaptation sensorielle".
+-->
 
-Cette randomisation permet de réduire le biais introduit dans le jugement perceptif du fait de de l'effet latent des évènements sonores sur leurs suivants.
+
+### Protocole expérimental
+
+Le protocole suit le cadre de l'**expérience contrôlée** (<!-- cf. notes IFT2905 --> )
+
+#### Hypothèse testable (Phase 1)
+
+Certaines catégories de sons urbains résidentiels suscitent une perception significativement plus négative que d'autres, telle que mesurée par les attributs d'agrément et d'animosité de l'ISO 12913-2, et ce, indépendamment de leur intensité sonore.
+
+**Variables**
+
+Les variables indépendantes sont les catégories d'extraits sonores présentés aux participants. Les variables dépendantes sont la perception individuelle, mesurée par les scores obtenus sur les attributs perceptifs de l'ISO 12913-2, ainsi que la valence perçue  <!-- ( ?) -->(positive, négative ou neutre).
+
+**Déroulement**
+
+Pour chaque participant, l'ordre de présentation des extraits sonores sera randomisé de manière individuelle. Une pause silencieuse de 3 à 5 secondes sera ménagée entre chaque extrait afin de limiter l'effet de contraste , c'est-à-dire l'influence latente d'un extrait sur la perception du suivant. Cette randomisation constitue la principale stratégie de contrôle du biais  lié à l'ordre.
+
+
 
 ### Décisions et ajustements
 
-> À compléter uniquement si des choix structurants ont été faits
-> ou si l’orientation du projet a évolué.
-
 !!! info "Décisions"
-    - Les extraits courts ont été ignorés, car l'option de les faire boucler introduirait des biais selon moi : l'appréciation du participant pourrait être influencée par la coupure audible à la jonction entre la fin et le début du clip.
+    Les extraits sonores d'une durée insuffisante ont été écartés du corpus. L'option de les faire boucler a été jugée inadéquate : la coupure audible à la jonction entre la fin et le début du clip risquerait d'influencer l'appréciation du participant de manière artificielle, introduisant ainsi un biais non contrôlé.
+
 
 
 ### Difficultés rencontrées
 
-> À compléter uniquement si des obstacles ont eu un impact réel
-> sur l’avancement du projet.
-
 !!! warning "Difficultés"
-    - Téléchargement des fichiers audio. En effet, le dataset FSD50K propose des dossiers zip relativement lourds et pour trouver un fichier correspondant à une classe précise, il faudrait tout télécharger et rechercher manuellement. Pour pallier à ce problème, le téléchargement se fera à travers l'interface de freesound ( par exemple :  https://freesound.org/apiv2/sounds/388682/download/
-   avec 3888682 un fname correspondant à un mid associé à une classe précise ).
+    Le téléchargement des fichiers audio pose un défi logistique. Le dataset FSD50K est distribué sous forme de fichiers zip volumineux, sans organisation par classe sonore. Identifier et extraire les fichiers correspondant à une classe précise nécessiterait de tout télécharger avant de rechercher manuellement. Pour contourner ce problème, les téléchargements se feront directement via l'API Freesound, les identifiants `fname` du dataset FSD50K correspondant aux identifiants de sons Freesound (exemple : `https://freesound.org/apiv2/sounds/388682/download/`).
