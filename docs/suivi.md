@@ -129,31 +129,39 @@ J'ai répertorié deux catégories :
 
 <h4 style=" text-decoration : underline; font-weight : bold;">Bruits liés aux travaux et à l’entretien </h4>
 
-- Tondeuse à gazon;
-- Marteau-piqueur ( jackhammer);
-- Perceuse (drill);
-- Marteau;
-- Souffleuse à feuilles ( période automnale);
-- Scie électrique;
+- Tondeuse à gazon ( 346312 plus axé sur l'action de tondre en elle-même ou 60609 plus axé sur le bruit du moteur);
+- Marteau-piqueur ( jackhammer 400991);
+- Perceuse (drill) (262265);
+- Marteau(592112);
+- Souffleuse à feuilles ( période automnale 131623);
+- Scie électrique(39888);
 
 <h4 style=" text-decoration : underline; font-weight : bold;"> Bruits liés aux appareils électroménagers </h4>
 
-- Microondes;
-- Aspirateur;
-- Mixeur;
-- Sèche-cheveux;
-- Machine à laver;
-- Sécheuse;
-- Lave-vaisselle;
-- Climatiseur;
-- Ventilateur;
-- Hotte de cuisine;
-- Réfrigérateur.
+- Microondes ( 219483);
+- Aspirateur(318556);
+- Mixeur( 459394 représentatif mais beaucoup de discontinuités, 346170 pas mal);
+- Sèche-cheveux (429078);
+- Machine à laver(384121);
+- Sécheuse(322955);
+- Lave-vaisselle(532152);
+- Climatiseur( 625419);
+- Ventilateur(170870);
+- Hotte de cuisine(444778);
+- Réfrigérateur  ( bourdonnement )(181616 ou 340301) .
 
 #### Explication des choix de catégories :
 
 Le but est de classifier les bruits urbains auxquels sont quotidiennement exposés des habitants de résidences Montréalaises et analogues, à ceci près que ces derniers doivent être contrôlables. En effet, le périmètre d’action de notre système de requalification se limite aux sources de bruit dont on peut contrôler et prévoir l’intensité et/ou la fréquence d’occurrence, ce qui n’est par exemple pas le cas de bruits liés à la circulation routière.
 
+### Flyer/Affiche
+
+Idées de citations :
+
+- Écoutez. Ressentez. Évaluez.
+- Écoutez. Réagissez. Changez.
+- Une séance d'écoute pour mieux vivre chez soi.
+- Quel bruit vous dérange le plus?
 
 ### Décisions et ajustements
 
