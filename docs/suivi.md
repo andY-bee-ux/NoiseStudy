@@ -92,6 +92,7 @@ Ces items seront évalués à l'aide d'une échelle de Likert en 5 points.
 ### Protocole expérimental
 
 Le protocole suit le cadre de l'**expérience contrôlée** (<!-- cf. notes IFT2905 --> )
+Recherche appareils pour prélèvements
 
 #### Hypothèse testable (Phase 1)
 
@@ -129,18 +130,23 @@ J'ai répertorié deux catégories :
 
 <h4 style=" text-decoration : underline; font-weight : bold;">Bruits liés aux travaux et à l’entretien </h4>
 
-- Tondeuse à gazon ( 346312 plus axé sur l'action de tondre en elle-même ou 60609 plus axé sur le bruit du moteur);
+- Tondeuse à gazon ( 346312 plus axé sur l'action de tondre en elle-même ou 60609 plus axé sur le bruit du moteur ou lawn mower 13 dans DATASEC ou 16);
 - Marteau-piqueur ( jackhammer 400991);
 - Perceuse (drill) (262265);
 - Marteau(592112);
 - Souffleuse à feuilles ( période automnale 131623);
 - Scie électrique(39888);
+- Tracteur ( appareil de déplacement);
+- Camion de nettoyage;
+- Pousse-neiges.
+
+Si les personnes ne sont pas capables de les identifier précisément, ça justifierait le fait qu'on généralise et qu'on les mette dans une seule catégorie. 
 
 <h4 style=" text-decoration : underline; font-weight : bold;"> Bruits liés aux appareils électroménagers </h4>
 
 - Microondes ( 219483);
 - Aspirateur(318556);
-- Mixeur( 459394 représentatif mais beaucoup de discontinuités, 346170 pas mal);
+- Mixeur( 459394 représentatif mais beaucoup de discontinuités, 346170 pas mal; ou à enregistrer moi-même);
 - Sèche-cheveux (429078);
 - Machine à laver(384121);
 - Sécheuse(322955);
@@ -148,11 +154,20 @@ J'ai répertorié deux catégories :
 - Climatiseur( 625419);
 - Ventilateur(170870);
 - Hotte de cuisine(444778);
-- Réfrigérateur  ( bourdonnement )(181616 ou 340301) .
+- Réfrigérateur  ( bourdonnement )(181616 ou 340301);
+- Air fryer;
+- Café;
+- Humidificateur d'air;
+- Bouilloire;
+- Ice maker;
 
 #### Explication des choix de catégories :
 
 Le but est de classifier les bruits urbains auxquels sont quotidiennement exposés des habitants de résidences Montréalaises et analogues, à ceci près que ces derniers doivent être contrôlables. En effet, le périmètre d’action de notre système de requalification se limite aux sources de bruit dont on peut contrôler et prévoir l’intensité et/ou la fréquence d’occurrence, ce qui n’est par exemple pas le cas de bruits liés à la circulation routière.
+
+#### Explication de la différence de longueur des deux catégories :
+
+Plus d'intérêt est porté aux bruits qui affectent l'intérieur de l'espace de logement.
 
 ### Flyer/Affiche
 
@@ -162,6 +177,44 @@ Idées de citations :
 - Écoutez. Réagissez. Changez.
 - Une séance d'écoute pour mieux vivre chez soi.
 - Quel bruit vous dérange le plus?
+
+### Questionnaire
+
+Montrer les questions aux participants avant le début de l'expérience permet :
+
+- Une réduction de la charge cognitive : si le participant connaît les questions d'avance, il peut écouter chaque son en sachant ce qu'il cherche à évaluer, plutôt que de découvrir les questions après coup et devoir reconstruire son souvenir du son;
+- Écoute plus adaptée et ciblée;
+- Réduction de l'anxiété.
+
+# Semaine 3 (17 – 24 Mai)
+
+## Objectifs de la période 
+
+Les objectifs de cette semaine sont les suivants :
+
+1. Peaufiner la description du projet;
+2. Rechercher et trouver les différents appareils à utiliser pour la mesure de la sensibilité au bruit;
+3. Partager l'annonce;
+4. Améliorer la qualité des sons;
+5. Commencer à se documenter sur les différents algorithmes utilisables pour le traitement des données;
+6. Faire les pages React pour le questionnaire.
+
+## Travail réalisé 
+
+### Une seule expérience ? " Design within subject "
+
+Si on réalise une seule expérience, les données seront plus valides. Si la personne écoute le son isolé puis immédiatement sa combinaison avec un son neutre, la comparaison sera basée sur la mémoire à court terme, ce qui est beaucoup plus fiable que si les deux expériences sont séparées de plusieurs semaines. En plus, ça permet de faire un seul recrutement, emprunter du matériel une seule fois, réserver la salle une seule fois. Et puis on aura beaucoup plus de données, et c'est plus cohérent si c'est le même échantillon qui reévalue les combinaisons. Une personne X n'aurait probablement pas considéré que le son Y était problématique comme la personne Z.
+
+### Appareils proposés
+
+Sur Amazon, j'ai trouvé :
+
+-  https://www.amazon.ca/-/fr/Zoom-H1essential-Enregistreur-accessibilit%C3%A9-enregistrement/dp/B0CSL4PXDV/ref=sr_1_4_mod_primary_new?__mk_fr_CA=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2PIPG5MKGP992&dib=eyJ2IjoiMSJ9.15Psweg1lhONgBuE31pXeuqttZZNDmW8YlYCMOyl3R9_llFQocAZzVzcvR43Gnn7nYmW7Tkx20Biv3m_Pw5Qow4u38tFnEvKXQIoPcGnbT-L0t5DJ84FmJLiWzL3EIhGxDS7Mq0ajC2HMlQ2C28lKmXrmLweK15oIMm2F0_-iZTE6u8L2j0FbnBsokjUxa463GuldRw0EE8hVlWqESpnlCI7-LhXNPdF9ik0bYitweoots9xlrDBhkUJfISerZagS3AY_v3CxIHV4JEAGjyY-BXmyMOirkij9qhOsMROf_w.1tAJBmHqLmURj1DwiDh7gm2vVWxVSKFabVxUGRu8joA&dib_tag=se&keywords=zoom+h5&qid=1779375255&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=zoom+h5%2Caps%2C97&sr=8-4 pour les enregistrements que je vais faire moi-même;
+
+### Build de l'interface React
+
+Les données sont pour le moment stockées sous format CSV, je discuterai de la nécessité de faire un backend avec MongoDB vendredi avec Louis-Edouard.
+
 
 ### Décisions et ajustements
 
