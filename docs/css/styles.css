@@ -48,16 +48,14 @@
 
 .md-content ul,
 .md-content ol {
-  list-style-type: none;
   padding-left: 0;
 }
 
 .md-content ul li,
 .md-content ol li {
-  border-left: 3px solid #4C191B;
   padding-left: 10px;
   margin-bottom: 12px;
-  background-color: #E0DDCF;
+  background-color: #FFFFFF;
   border-radius: 0 4px 4px 0;
 }
 

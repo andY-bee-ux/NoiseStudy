@@ -66,7 +66,7 @@ Les variables suivantes seront collectées et documentées, leur influence étan
 - Genre
 - Quartier de résidence (impact potentiel sur le facteur d'habituation)
 - Durée de résidence dans le quartier actuel
-- Exposition professionnelle au bruit
+- Exposition professionnelle au bruit;
 - Présence de troubles auditifs auto-déclarés
 
 
@@ -94,6 +94,11 @@ Ces items seront évalués à l'aide d'une échelle de Likert en 5 points.
 Le protocole suit le cadre de l'**expérience contrôlée** (<!-- cf. notes IFT2905 --> )
 Recherche appareils pour prélèvements
 
+soothing rain sounds in hitting jars
+
+se synchroniser avec le son naturel avant, ca fait un easing effet ( on joue le son naturel avant puis on joue la combinaison) juste avec les bruits internes ( contrôlables) 5 secondes?
+
+Pour les bruits externes l'appareil peut ajuster le volume en fonction de ce qu'il reçoit genre le niveau de bruit qu'il capte venant de l'extérieur.
 #### Hypothèse testable (Phase 1)
 
 Certaines catégories de sons urbains résidentiels suscitent une perception significativement plus négative que d'autres, telle que mesurée par les attributs d'agrément et d'animosité de l'ISO 12913-2, et ce, indépendamment de leur intensité sonore.
@@ -128,38 +133,35 @@ J'ai rempli la section index avec les informations sur la problématique, le con
 
 J'ai répertorié deux catégories :
 
-<h4 style=" text-decoration : underline; font-weight : bold;">Bruits liés aux travaux et à l’entretien </h4>
+<h4 style=" text-decoration : underline; font-weight : bold;">Bruits liés aux travaux et à l’entretien </h4> 6
 
 - Tondeuse à gazon ( 346312 plus axé sur l'action de tondre en elle-même ou 60609 plus axé sur le bruit du moteur ou lawn mower 13 dans DATASEC ou 16);
 - Marteau-piqueur ( jackhammer 400991);
-- Perceuse (drill) (262265);
+- Perceuse (drill) (262265) -;
 - Marteau(592112);
-- Souffleuse à feuilles ( période automnale 131623);
+- Souffleuse à feuilles (131623/ 649162 hésitation sérieuse!!);
 - Scie électrique(39888);
-- Tracteur ( appareil de déplacement);
-- Camion de nettoyage;
-- Pousse-neiges.
+- Tracteur ( appareil de déplacement) - ;
+- Véhicule de déplacement;
+- Déneigeur -;
 
 Si les personnes ne sont pas capables de les identifier précisément, ça justifierait le fait qu'on généralise et qu'on les mette dans une seule catégorie. 
 
-<h4 style=" text-decoration : underline; font-weight : bold;"> Bruits liés aux appareils électroménagers </h4>
+<h4 style=" text-decoration : underline; font-weight : bold;"> Bruits liés aux appareils électroménagers 8 </h4>
 
-- Microondes ( 219483);
+- Microondes ( 219483)-;
 - Aspirateur(318556);
 - Mixeur( 459394 représentatif mais beaucoup de discontinuités, 346170 pas mal; ou à enregistrer moi-même);
-- Sèche-cheveux (429078);
-- Machine à laver(384121);
+- Sèche-cheveux (429078); - 
+- Machine à laver(384121 - à faire ( les différentes étapes également));
 - Sécheuse(322955);
 - Lave-vaisselle(532152);
 - Climatiseur( 625419);
-- Ventilateur(170870);
+- Ventilateur(170870) -;
 - Hotte de cuisine(444778);
 - Réfrigérateur  ( bourdonnement )(181616 ou 340301);
-- Air fryer;
-- Café;
-- Humidificateur d'air;
-- Bouilloire;
-- Ice maker;
+- Café grinder ( broyage des graines) (68310) ;
+- Humidificateur d'air salle de bains- ;
 
 #### Explication des choix de catégories :
 
@@ -205,6 +207,18 @@ Les objectifs de cette semaine sont les suivants :
 
 Si on réalise une seule expérience, les données seront plus valides. Si la personne écoute le son isolé puis immédiatement sa combinaison avec un son neutre, la comparaison sera basée sur la mémoire à court terme, ce qui est beaucoup plus fiable que si les deux expériences sont séparées de plusieurs semaines. En plus, ça permet de faire un seul recrutement, emprunter du matériel une seule fois, réserver la salle une seule fois. Et puis on aura beaucoup plus de données, et c'est plus cohérent si c'est le même échantillon qui reévalue les combinaisons. Une personne X n'aurait probablement pas considéré que le son Y était problématique comme la personne Z.
 
+Pas un palliatif par audio
+
+### Rencontre
+
+2 fois 20 secondes pour évaluer si la répétition est problématique.
+Niveaux de volume différents.
+
+Il faudra valider les palliatifs par la suite ( car la première expérience ne servira que de test).
+
+" Ce son vous semble-t-il dérangeant " préciser les contextes : repos ? concentration? actif?
+https://forms.fillout.com/t/7vm9z2iJqPus
+
 ### Appareils proposés
 
 Sur Amazon, j'ai trouvé :
@@ -216,6 +230,66 @@ Sur Amazon, j'ai trouvé :
 Les données sont pour le moment stockées sous format CSV, je discuterai de la nécessité de faire un backend avec MongoDB vendredi avec Louis-Edouard.
 
 
+# Semaine 4 (25 – 31 Mai)
+
+## Objectifs de la période 
+
+Les objectifs de cette semaine sont les suivants :
+
+1. Finaliser la description du projet;
+2. Faire les calculs pour l'expérience ( valider le nombre total d'extraits sonores);
+3. Sélectionner les sons naturels et faire les superpositions;
+4. Faire pour chaque extrait 2 fois 20 secondes;
+5. Préparer le matériel;
+6. Diffuser l'annonce.
+
+## Travail réalisé 
+
+### Normalisation des extraits
+
+Les extraits ont été enregistrés dans le dossier audiosnontraites/anormaliser/.
+
+Faire écouter le son brut du drill à Louis-Edouard pour voir ce qu'il pense des discontinuités.
+
+- Vaccuum cleaner;
+- Jackhammer excavator ( good one);
+- drill;
+- Coffee grinder;
+
+# Semaine 5 (1 – 7 Juin)
+
+## Objectifs de la période 
+
+Les objectifs de cette semaine sont les suivants :
+
+1. Préparer le PowerPoint pour la mise en commun;
+2. Finaliser le formulaire;
+3. Revoir les sons et s'assurer qu'ils sont suffisamment représentatifs;
+6. Diffuser l'annonce.
+
+## Travail réalisé 
+
+### Préparation pour la mise en commun
+
+Un PowerPoint a été réalisé afin de présenter les axes principaux du projet.
+
+### Amélioration du formulaire
+
+Le formulaire a été modifié selon les commentaires apportés par le superviseur.
+
+### Adjectifs de Axelsson
+
+- Plaisant/ déplaisant ( irritant?)
+- Animé ( vivant, dynamique) / monotone ( ennuyeux)
+- Vibrant ( stimulant, énergétique) / répétitif
+- calme ( apaisant, serein, tranquille) / chaotique ( agité, perturbant, stressant?)
+- ennuyeux, excitant
+
+familier 1 à 5 en expliquant clairement ce que signifient les différents niveauxé
+
+On pourrait aussi évaluer la familiarité sur une échelle?
+
+Aidez-nous à améliorer l'ambiance (sonore) dans nos foyers.
 ### Décisions et ajustements
 
 !!! info "Décisions"
