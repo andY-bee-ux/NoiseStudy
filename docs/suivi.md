@@ -92,13 +92,7 @@ Ces items seront évalués à l'aide d'une échelle de Likert en 5 points.
 ### Protocole expérimental
 
 Le protocole suit le cadre de l'**expérience contrôlée** (<!-- cf. notes IFT2905 --> )
-Recherche appareils pour prélèvements
 
-soothing rain sounds in hitting jars
-
-se synchroniser avec le son naturel avant, ca fait un easing effet ( on joue le son naturel avant puis on joue la combinaison) juste avec les bruits internes ( contrôlables) 5 secondes?
-
-Pour les bruits externes l'appareil peut ajuster le volume en fonction de ce qu'il reçoit genre le niveau de bruit qu'il capte venant de l'extérieur.
 #### Hypothèse testable (Phase 1)
 
 Certaines catégories de sons urbains résidentiels suscitent une perception significativement plus négative que d'autres, telle que mesurée par les attributs d'agrément et d'animosité de l'ISO 12913-2, et ce, indépendamment de leur intensité sonore.
@@ -136,12 +130,12 @@ J'ai répertorié deux catégories :
 <h4 style=" text-decoration : underline; font-weight : bold;">Bruits liés aux travaux et à l’entretien </h4> 6
 
 - Tondeuse à gazon ( 346312 plus axé sur l'action de tondre en elle-même ou 60609 plus axé sur le bruit du moteur ou lawn mower 13 dans DATASEC ou 16);
-- Marteau-piqueur ( jackhammer 400991);
+- Marteau-piqueur ( jackhammer 400991)*;
 - Perceuse (drill) (262265) -;
 - Marteau(592112);
 - Souffleuse à feuilles (131623/ 649162 hésitation sérieuse!!);
 - Scie électrique(39888);
-- Tracteur ( appareil de déplacement) - ;
+- Tracteur ( appareil de déplacement) * ;
 - Véhicule de déplacement;
 - Déneigeur -;
 
@@ -151,15 +145,15 @@ Si les personnes ne sont pas capables de les identifier précisément, ça justi
 
 - Microondes ( 219483)-;
 - Aspirateur(318556);
-- Mixeur( 459394 représentatif mais beaucoup de discontinuités, 346170 pas mal; ou à enregistrer moi-même);
+- Mixeur( 459394 représentatif mais beaucoup de discontinuités, 346170 pas mal; ou à enregistrer moi-même)*;
 - Sèche-cheveux (429078); - 
-- Machine à laver(384121 - à faire ( les différentes étapes également));
+- ***Machine à laver(384121 - à faire ( les différentes étapes également));
 - Sécheuse(322955);
 - Lave-vaisselle(532152);
 - Climatiseur( 625419);
 - Ventilateur(170870) -;
-- Hotte de cuisine(444778);
-- Réfrigérateur  ( bourdonnement )(181616 ou 340301);
+- Hotte de cuisine(444778)*;
+- ***Réfrigérateur  ( bourdonnement )(181616 ou 340301);
 - Café grinder ( broyage des graines) (68310) ;
 - Humidificateur d'air salle de bains- ;
 
@@ -273,6 +267,8 @@ Les objectifs de cette semaine sont les suivants :
 
 Un PowerPoint a été réalisé afin de présenter les axes principaux du projet.
 
+40 secondes volume normal, 20 secondes volume plus bas et 30 secondes pour les combinaisons avec 16 extraits sonores et 5 par participants
+
 ### Amélioration du formulaire
 
 Le formulaire a été modifié selon les commentaires apportés par le superviseur.
@@ -289,7 +285,90 @@ familier 1 à 5 en expliquant clairement ce que signifient les différents nivea
 
 On pourrait aussi évaluer la familiarité sur une échelle?
 
+champ de feedback, questionnaire à la fin
+le son est-il dérangeant immédiatement , au fil du temps
 Aidez-nous à améliorer l'ambiance (sonore) dans nos foyers.
+
+# Semaine 6 (8 – 15 Juin)
+
+## Objectifs de la période 
+
+Les objectifs de cette semaine sont les suivants :
+
+1. Recruter des participants;
+2. Finaliser l'annonce et la poster sur Linkedin;
+3. Faire des affiches;
+4. Améliorer l'interface.
+
+## Notes de la rencontre avec Louis-Edouard
+
+Recherche appareils pour prélèvements
+
+soothing rain sounds in hitting jars
+
+se synchroniser avec le son naturel avant, ca fait un easing effet ( on joue le son naturel avant puis on joue la combinaison) juste avec les bruits internes ( contrôlables) 5 secondes?
+
+Pour les bruits externes l'appareil peut ajuster le volume en fonction de ce qu'il reçoit genre le niveau de bruit qu'il capte venant de l'extérieur.
+
+# Semaine 7 (16 – 21 Juin)
+
+## Objectifs de la période 
+
+Les objectifs de cette semaine sont les suivants :
+
+1. Planifier les expériences;
+2. Modifier les extraits sonores pour en avoir de 30 secondes;
+3. Améliorer et finaliser l'interface.
+
+## Travail réalisé 
+
+Le questionnaire a été modifié afin d'apporter plus de clarté pour l'utilisateur, notamment avec des indicateurs en dessous de chaque item de l'échelle de Likert. 
+
+Les premiers contacts ont été établis avec les participants, et les expériences ont été planifiées. Nous sommes à 16 participants pour l'instant.
+
+5 des extraits sonores ont été revisités et modifiés afin de les rallonger pour avoir 30secondes, et les superpositions ont été faites avec les 5 sons naturels sélectionnés ( fire crackling, rain, running water, ocean waves and birds singing).
+
+# Semaine 8 ( 22 - 29 Juin)
+
+## Objectifs de la période
+
+Les objectifs de cette semaine sont les suivants:
+
+1. Réaliser les expériences;
+2. Former le dataset.
+
+La première expérience a été réalisée le 22 Juin. Le volume pour l'ordinateur ( calibré avec l'application DecibelX sur mobile) est de 60 pour les 5 premiers et les 25 derniers, 20 pour les 5 autres ( 2e bloc).
+
+Les sons sont divisés en trois blocs : le premier comprend 5 extraits de 30 secondes choisis parmi 14, et présentés dans un ordre différent d'une séance à une autre. Le deuxième comprend 5 autres extraits de 20 secondes à un niveau de volume différent.
+
+# Semaine 9 ( 30 - 05 Juillet)
+
+## Objectifs de la période
+
+Les objectifs de cette semaine sont les suivants:
+
+1. Commencer à analyser les données.
+2. Mettre en place les premières visualisations.
+
+# Semaine 10 ( 6-12 Juillet)
+
+La portée des différentes expériences a été revisitée afin de se focaliser uniquement sur les sons individuels. La liste de ces derniers est la suivante :
+
+- Perceuse électrique (10);
+- Machine à laver (10);
+- Souffleuse à feuilles (10);
+- Aspirateur (0);
+- Tondeuse à gazon (10);
+- Réfrigérateur (10);
+- Hotte de cuisine (0);
+- Sèche-cheveux (0);
+- Blender (0);
+- Véhicule de déplacement dans les chantiers de construction (0);
+- Marteau-piqueur (0);
+- Climatiseur (0).
+
+
+
 ### Décisions et ajustements
 
 !!! info "Décisions"
