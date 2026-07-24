@@ -11,18 +11,18 @@ title: Travail réalisé
 </style>
 
 # Réalisation
-
+<!--
 > :bulb: Cette page sert à présenter les travaux réalisés incluant la conception.  
 > Elle ne remplace pas le rapport final, mais permet de documenter progressivement les travaux réalisés, les décisions prises et les principaux résultats obtenus.
 
-
+-->
 ## Structure suggérée
-
+<!--
 > La structure suivante est donnée à titre indicatif.  
 > Vous pouvez l’adapter selon la nature de votre projet.
-
+-->
 ### Architecture ou structure générale
-
+<!--
 > Présentez l’organisation générale du projet :
 >
 > - architecture logicielle ;
@@ -31,7 +31,7 @@ title: Travail réalisé
 > - technologies utilisées ;
 > - environnement de développement ;
 > - outils ou services externes.
-
+-->
 #### Les expériences
 
 La première partie du projet consistait en des séances d'écoute d'une durée de 1 heure, durant lesquelles les participants étaient exposés à des extraits sonores de machine à laver, réfrigérateur ( humming), perceuse électrique, tondeuse à gazon et souffleuse à feuilles. Ces extraits étaient d'abord proposés sous une durée de 30 secondes, puis 20 secondes afin d'étudier l'influence de la durée sur la perception individuelle. Enfin, des combinaisons de chacun de ces sons avec 5 sons naturels ( chant d'oiseaux, vagues, crépitement de feu, pluie et chutes d'eau) ont été jouées. 
@@ -96,7 +96,7 @@ Avec la loi de l'inverse du carré, si on connaît le niveau sonore de l'apparei
 
 
 ### Fonctionnalités ou composantes réalisées
-
+<!--
 > Présentez les principales fonctionnalités, modules ou composantes développés.
 >
 > Vous pouvez inclure :
@@ -106,19 +106,21 @@ Avec la loi de l'inverse du carré, si on connaît le niveau sonore de l'apparei
 > - démonstrations ;
 > - extraits de code ;
 > - prototypes.
-
+-->
 ### Difficultés rencontrées
-
+<!--
 > Décrivez les principaux défis rencontrés durant le projet :
 >
 > - techniques ;
 > - méthodologiques ;
 > - organisationnels ;
 > - liés aux outils ou technologies.
-
+-->
 La première difficulté rencontrée était la trouvaille de participants. Nous avons fait imprimé des affiches, mais ce mode de diffusion n'a donné aucun résultat. 
 
 Et si plusieurs appareils fonctionnent en même temps?
+
+Nous avons rencontré un problème important avec les classifieurs déjà existants ( YamNET de Google et ast de MIT). Tous les deux ont été entraîné sur Audioset qui est un dataset créé à partir de Youtube dont les extraits ont une durée de 10 secondes. Tandis que nos extraits sonores sont issus de freesound ( plateforme communautaire).
 
 Chaque pièce est différente, les matériaux utilisés, favorisent des réfléxions acoustiques et des absorptions différentes. Les ratios calculés seront donc des approximations qui fonctionneront bien dans des conditions similaires à celles de l'expérience, mais moins bien dans des configurations différentes.
 
@@ -130,10 +132,12 @@ Nous avons décidé d'adopter une méthode de recrutement un à un pour les part
 
 En ce qui concerne la multitude d'extraits sonores, nous avons tout d'abord décidé de sélectionner 5 sons individuels, et de travailler uniquement avec ces derniers durant les expériences. Ensuite, nous avons plutôt opté pour la solution initiale qui était de réaliser deux expériences : une d'une trentaine de minutes avec environ 8 extraits ( sans les combinaisons avec les sons naturels mais avec les 2 variantes plain et 30sec), et une d'une heure avec les combinaisons. Le choix de l'un ou l'autre étant fait par le participant lors de l'inscription.
 
-> Présentez les changements importants effectués durant le trimestre :
+En ce qui concerne le classifieur, une solution serait d'en entraîner un nous-même à partir de freesound ( ou mieux FSK-50 qui est une version revisitée de Freesound) avec différentes variantes pour les différents sons.
+<!--> Présentez les changements importants effectués durant le trimestre :
 >
 > - changement d’approche ;
 > - ajustement des objectifs ;
 > - nouvelles contraintes ;
 > - simplifications ;
-> - améliorations apportées.
+> - améliorations apportées. -->
+
